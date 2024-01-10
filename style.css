@@ -1,0 +1,36 @@
+/* MAIN CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(206, 206, 206);
+}
+
+/* HEADER */
+
+.header-button{
+    text-align: center;
+    width: 80%;
+    box-shadow: 5px 3px 3px 2px gray;
+    padding: 3% 0;
+    border: 0;
+    font-size: large;
+    color: rgb(21, 21, 21);
+    letter-spacing: 3px;
+}
+
+.header-div{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left: 4%;
+    margin-top: 2%;
+}

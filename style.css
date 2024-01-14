@@ -177,3 +177,14 @@ img{
     width: 100%;
     box-shadow: 5px 3px 3px 2px gray;
 }
+
+/* FOOTER */
+
+.footer {
+    margin-top: 2rem;
+    background: gray;
+    color: rgb(227, 227, 227);
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+}

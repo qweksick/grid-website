@@ -52,7 +52,7 @@ a{
     grid-gap: 20px;
     grid-template-areas: 'main-container-main-content main-container-main-content main-container-ordinary-content-one' 'main-container-main-content main-container-main-content main-container-ordinary-content-two';
     margin: 2%;
-  }
+}
   
 .main-container-main-content {
     grid-area: main-container-main-content;
@@ -60,26 +60,26 @@ a{
     background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
     background-size: cover;
     background-position: center;
-    padding: 3rem;
+    padding: 10%;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: center;
     box-shadow: 5px 3px 3px 2px gray;
-  }
+}
   
 .main-container-main-content h1 {
-    font-size: 4rem;
+    font-size: 400%;
     margin-bottom: 1%;
     color: rgb(227, 227, 227);
-  }
+}
   
 .main-container-main-content p {
     font-size: 120%;
     margin-top: 0;
     color: rgb(227, 227, 227);
     margin-bottom: 3%;
-  }
+}
 
 .main-container-ordinary-content {
     background: rgb(227, 227, 227);
@@ -88,7 +88,7 @@ a{
     justify-items: center;
     box-shadow: 5px 3px 3px 2px gray;
     padding: 15%;
-  }
+}
 
 .main-container-button{
     background-color: grey;
@@ -98,15 +98,15 @@ a{
 
 .main-container-ordinary-content .price {
     font-size: 250%;
-  }
+}
   
 .main-container-ordinary-content-one {
     grid-area: main-container-ordinary-content-one;
-  }
+}
   
 .main-container-ordinary-content-two {
     grid-area: main-container-ordinary-content-two;
-  }
+}
   
 
 /* TYPE SECTION */
@@ -116,19 +116,50 @@ a{
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     margin: 2%;
-  }
+}
   
   .type-div {
     background: rgb(227, 227, 227);
     text-align: center;
     padding: 10% 15%;
     box-shadow: 5px 3px 3px 2px gray;
-  }
+}
 
   .type-main-text{
     margin: 3% 0;
-  }
+}
   
   i{
     font-size: 200%;
-  }
+}
+
+/* INFO-SECTION */
+
+.info-section {
+    background: rgb(227, 227, 227);
+    box-shadow: 5px 3px 3px 2px gray;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5%;
+    width: 96%;
+    margin: 2%;
+}
+
+.info-button{
+    background-color: grey;
+    color: rgb(227, 227, 227);
+    padding: 2%;
+}
+
+.info-section-content{
+    padding: 5%;
+}
+
+.info-ordinary-text{
+    padding: 5% 0;
+}
+
+img{
+    max-width: 100%;
+}

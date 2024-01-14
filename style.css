@@ -15,6 +15,10 @@ body {
     background-color: rgb(206, 206, 206);
 }
 
+a{
+    text-decoration: none;
+}
+
 /* HEADER */
 
 .header-button{
@@ -41,6 +45,70 @@ body {
     margin-top: 2%;
 }
 
+/* MAIN CONTAINER */
+
+.main-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'main-container-main-content main-container-main-content main-container-ordinary-content-one' 'main-container-main-content main-container-main-content main-container-ordinary-content-two';
+    margin: 2%;
+  }
+  
+.main-container-main-content {
+    grid-area: main-container-main-content;
+    min-height: 400px;
+    background-image: url('https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-shadow: 5px 3px 3px 2px gray;
+  }
+  
+.main-container-main-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1%;
+    color: rgb(227, 227, 227);
+  }
+  
+.main-container-main-content p {
+    font-size: 120%;
+    margin-top: 0;
+    color: rgb(227, 227, 227);
+    margin-bottom: 3%;
+  }
+
+.main-container-ordinary-content {
+    background: rgb(227, 227, 227);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 5px 3px 3px 2px gray;
+    padding: 15%;
+  }
+
+.main-container-button{
+    background-color: grey;
+    color: rgb(227, 227, 227);
+    padding: 1%;
+}
+
+.main-container-ordinary-content .price {
+    font-size: 250%;
+  }
+  
+.main-container-ordinary-content-one {
+    grid-area: main-container-ordinary-content-one;
+  }
+  
+.main-container-ordinary-content-two {
+    grid-area: main-container-ordinary-content-two;
+  }
+  
+
 /* TYPE SECTION */
   
   .type-section {
@@ -53,7 +121,14 @@ body {
   .type-div {
     background: rgb(227, 227, 227);
     text-align: center;
-    padding: 1.5rem 2rem;
+    padding: 10% 15%;
     box-shadow: 5px 3px 3px 2px gray;
   }
+
+  .type-main-text{
+    margin: 3% 0;
+  }
   
+  i{
+    font-size: 200%;
+  }

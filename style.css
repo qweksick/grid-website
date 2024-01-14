@@ -1,4 +1,5 @@
 /* MAIN CSS */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
 * {
     margin: 0px;
@@ -13,6 +14,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(206, 206, 206);
+    font-family: 'Work Sans', sans-serif;
 }
 
 a{

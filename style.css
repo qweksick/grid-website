@@ -191,6 +191,17 @@ img{
     margin: 2%;
 }
 
+/* MAP */
+
+iframe{
+    width: 100%;
+}
+
+.map{
+    margin: 2%;
+    box-shadow: 5px 3px 3px 2px gray;
+}
+
 /* MEDIA SCREEN */
 
 @media (max-width: 1000px) {
